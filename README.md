@@ -1,10 +1,14 @@
-# Virtual Network with two Subnets and NSG
+# Virtual Network with two Web Server, two SQL Server with availability set, Virtual Network with subnets and NSG rules
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwasimbloch%2Fazure-arm-nsg%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-This template allows you to create a Virtual Network with two subnets, Windows Server VMs in one subnet, and SQL Server 2014 VMs on another subnet.
+<a href="http://armviz.io/#/?load=https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwasimbloch%2Fazure-arm-nsg%2Fmaster%2Fazuredeploy.json" target="_blank">
+    <img src="http://armviz.io/visualizebutton.png"/>
+</a>
+
+This template allows you to create a Virtual Network with two Web Server, two SQL Server with availability set, Virtual Network with subnets and NSG rules.
 
 Below are the parameters that the template expects.
 
@@ -24,4 +28,3 @@ Below are the parameters that the template expects.
 | frontEndNSGName | Name of the NSG used for the front end subnet |
 | backEndNSGName | Name of the NSG used for the back end subnet |
 
-For more information on the scenario built wth this template, visit [this page](https://azure.microsoft.com/documentation/articles/virtual-networks-create-nsg-arm-template)

@@ -94,8 +94,8 @@
   "variables": {
     "webVMSettings": {
       "vmSize": "Standard_A1",
-      "adminUsername": "adminuser",
-      "adminPassword": "adminP@ssw0rd",
+      "adminUsername": "demouser",
+      "adminPassword": "demouser@123",
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
       "sku": "2012-R2-Datacenter",
@@ -108,8 +108,8 @@
     },
     "sqlVMSettings": {
       "vmSize": "Standard_DS1",
-      "adminUsername": "adminuser",
-      "adminPassword": "adminP@ssw0rd",
+      "adminUsername": "demouser",
+      "adminPassword": "demouser@123",
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2014SP1-WS2012R2",
       "sku": "Standard",
