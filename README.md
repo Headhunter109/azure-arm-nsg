@@ -1,10 +1,10 @@
-# Virtual Network with two Web Server, two SQL Server with availability set, Virtual Network with subnets and NSG rules
+# Virtual Network with two Web Server, two SQL Server with availability set, Subnets and NSG Front and Back end rules
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwasimbloch%2Fazure-arm-nsg%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-This template allows you to create a Virtual Network with two Web Server, two SQL Server with availability set, Virtual Network with subnets and NSG rules.
+This template allows you to create a Virtual Network with two Web Server, two SQL Server with availability set, Subnets and NSG front and back end rules.
 
 Below are the parameters that the template expects.
 
